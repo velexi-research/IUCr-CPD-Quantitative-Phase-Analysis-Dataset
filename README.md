@@ -32,9 +32,7 @@ Contents
 
     3.2. [Releasing an Official Dataset Version][#3.2]
 
-    3.3. [Supporting Software Tools][#3.3]
-
-    3.4. [Dataset Conventions][#3.4]
+    3.3. [Dataset Conventions][#3.3]
 
 4. [References][#4]
 
@@ -89,14 +87,14 @@ is no longer actively maintained):
 
 ### 1.3. License
 
-The data components in this dataset is covered under the Creative Commons
+The data contained in this dataset is covered under the Creative Commons
 Attribution 4.0 International Public License (included in the `DATASET-LICENSE`
-file). Licenses for third-party data included in this dataset are contained in
+file). Licenses for third-party data included with this dataset are contained in
 the `DATASET-NOTICE` file.
 
-The software components of this repository are covered under the Apache License
+The software contained in this repository is covered under the Apache License
 2.0 (included in the `SOFTWARE-LICENSE` file). The copyright for the software
-components is contained in the `SOFTWARE-NOTICE` file.
+is contained in the `SOFTWARE-NOTICE` file.
 
 ### 1.4. Known Issues
 
@@ -273,20 +271,7 @@ In the example command above, the following substitutions should be made:
    analogous service), create a release associated with the git tag created
    in Step #4.
 
-### 3.3. Supporting Software Tools
-
-#### Software Dependencies
-
-* __Base Requirements__
-
-  * [Python][python] (>=3.9)
-  * [Poetry][poetry] (>=1.2)
-
-* __Python Packages__
-
-  * See the `[tool.poetry.dependencies]` section of the `pyproject.toml` file.
-
-### 3.4. Dataset Conventions
+### 3.3. Dataset Conventions
 
 #### Data
 
@@ -366,8 +351,7 @@ In the example command above, the following substitutions should be made:
 [#3.1]: #31-managing-data
 [#3.1.2]: #312-updating-data
 [#3.2]: #32-releasing-an-official-dataset-version
-[#3.3]: #33-supporting-software-tools
-[#3.4]: #34-dataset-conventions
+[#3.3]: #33-dataset-conventions
 
 [#4]: #4-references
 
