@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "iucr-cpd-round-robin-on-quantitative-phase-analysis-dataset"
 version = "0.1.0"
-description = ""
+description = "IUCr CPD Round Robin on Quantitative Phase Analysis Dataset"
 license = "Apache-2.0"
 readme = "README.md"
 authors = ["Kevin T. Chu <kevin@velexi.com>"]
