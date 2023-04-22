@@ -115,7 +115,7 @@ import the dataset after initializing DVC in the working directory.
    ```
    $ cd /PATH/TO/PROJECT
    $ fds init
-   $ fds commit "Initialize DVC."
+   $ fds commit "Initialize DVC"
    ```
 
    In the example commands above, `/PATH/TO/PROJECT` should be replaced
@@ -125,7 +125,7 @@ import the dataset after initializing DVC in the working directory.
 
    ```
    $ dvc config core.autostage true
-   $ fds commit "Enable DVC auto staging."
+   $ fds commit "Enable DVC auto staging"
    ```
 
 3. Import the dataset.
@@ -156,7 +156,7 @@ import the dataset after initializing DVC in the working directory.
     ```
     $ mkdir data
     $ dvc import https://github.com/account/cool-dataset data -o data/cool-dataset
-    $ fds commit "Import cool-dataset."
+    $ fds commit "Import cool-dataset"
     ```
 
 ### 2.2. Updating the Dataset
@@ -167,12 +167,14 @@ dataset Git repository) by using the `dvc update` command.
 
 ```
 $ dvc update DATASET.dvc
+$ fds commit "Update 'IUCr CPD Round Robin on Quantitative Phase Analysis Dataset'"
 ```
 
 or
 
 ```
 $ dvc update DATASET
+$ fds commit "Update 'IUCr CPD Round Robin on Quantitative Phase Analysis Dataset'"
 ```
 
 In the example commands above, the following substitutions should be made:
@@ -186,6 +188,7 @@ To specify the particular revision of the dataset to retreive, use the
 
 ```
 $ dvc update DATASET.dvc --rev REVISION
+$ fds commit "Update 'IUCr CPD Round Robin on Quantitative Phase Analysis Dataset'"
 ```
 
 -------------------------------------------------------------------------------
