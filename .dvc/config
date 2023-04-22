@@ -1,4 +1,4 @@
 [core]
-    remote = storage
-['remote "storage"']
+    remote = origin
+['remote "origin"']
     url = s3://vlxi-data-bank-iucr-cpd-quantitative-phase-analysis-dataset
