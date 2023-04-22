@@ -1,0 +1,4 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = ../arn:aws:s3:::vlxi-data-bank-iucr-cpd-quantitative-phase-analysis-dataset
