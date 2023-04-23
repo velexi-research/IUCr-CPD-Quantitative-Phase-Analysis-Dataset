@@ -134,7 +134,7 @@ import the dataset after initializing DVC in the working directory.
 3. Import the dataset.
 
     ```
-    $ dvc import https://github.com/velexi-research/IUCr-CPD-Quantitative-Phase-Analysis-Dataset.git data -o /LOCAL/PATH
+    $ dvc import https://github.com/velexi-research/IUCr-CPD-Quantitative-Phase-Analysis-Dataset.git data -o LOCAL_PATH
     $ fds commit "Import 'IUCr CPD Round Robin on Quantitative Phase Analysis Dataset'"
     ```
 
@@ -301,7 +301,7 @@ $ fds commit "Update 'IUCr CPD Round Robin on Quantitative Phase Analysis Datase
 #### Data
 
 * `data` directory. All data files that should be imported when using the
-  `dvc import URL data -o /LOCAL/PATH` command should be placed in the `data`
+  `dvc import URL data -o LOCAL_PATH` command should be placed in the `data`
   directory.
 
   * Depending on the nature of the dataset, it may be useful to organize the
