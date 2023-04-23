@@ -1,4 +1,4 @@
-IUCr CPD Round Robin on Quantitative Phase Analysis Dataset
+IUCr CPD Quantitative Phase Analysis Dataset
 ===============================================================================
 
 This repository contains the dataset assembled by the International Union of
@@ -136,7 +136,7 @@ import the dataset after initializing DVC in the working directory.
 
     ```
     $ dvc import https://github.com/velexi-research/IUCr-CPD-Quantitative-Phase-Analysis-Dataset.git data -o LOCAL_PATH
-    $ fds commit "Import 'IUCr CPD Round Robin on Quantitative Phase Analysis Dataset'"
+    $ fds commit "Import 'IUCr CPD Quantitative Phase Analysis Dataset'"
     ```
 
     In the example command above, the following substitutions should be made:
@@ -169,14 +169,14 @@ dataset Git repository) by using the `dvc update` command.
 
 ```
 $ dvc update DATASET.dvc
-$ fds commit "Update 'IUCr CPD Round Robin on Quantitative Phase Analysis Dataset'"
+$ fds commit "Update 'IUCr CPD Quantitative Phase Analysis Dataset'"
 ```
 
 or
 
 ```
 $ dvc update DATASET
-$ fds commit "Update 'IUCr CPD Round Robin on Quantitative Phase Analysis Dataset'"
+$ fds commit "Update 'IUCr CPD Quantitative Phase Analysis Dataset'"
 ```
 
 In the example commands above, the following substitutions should be made:
@@ -190,7 +190,7 @@ To specify the particular revision of the dataset to retreive, use the
 
 ```
 $ dvc update DATASET.dvc --rev REVISION
-$ fds commit "Update 'IUCr CPD Round Robin on Quantitative Phase Analysis Dataset'"
+$ fds commit "Update 'IUCr CPD Quantitative Phase Analysis Dataset'"
 ```
 
 -------------------------------------------------------------------------------

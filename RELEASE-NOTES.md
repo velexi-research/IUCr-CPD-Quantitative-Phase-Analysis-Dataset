@@ -1,4 +1,4 @@
-IUCr CPD Round Robin on Quantitative Phase Analysis Dataset Release Notes
+IUCr CPD Quantitative Phase Analysis Dataset Release Notes
 ===============================================================================
 -------------------------------------------------------------------------------
 v0.1.0 (YYYY-MM-DD)
