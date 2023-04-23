@@ -88,13 +88,14 @@ is no longer actively maintained):
 ### 1.3. License
 
 The data contained in this dataset is covered under the Creative Commons
-Attribution 4.0 International Public License (included in the `DATASET-LICENSE`
-file). Licenses for third-party data included with this dataset are contained in
-the `DATASET-NOTICE` file.
+Attribution 4.0 International Public License (included in the
+[`DATASET-LICENSE`](DATASET-LICENSE) file). Licenses for third-party data
+included with this dataset are contained in the [`DATASET-NOTICE`](DATASET-NOTICE)
+file.
 
 The software contained in this repository is covered under the Apache License
-2.0 (included in the `SOFTWARE-LICENSE` file). The copyright for the software
-is contained in the `SOFTWARE-NOTICE` file.
+2.0 (included in the [`SOFTWARE-LICENSE`](SOFTWARE-LICENSE) file). The copyright
+for the software is contained in the [`SOFTWARE-NOTICE`](SOFTWARE-NOTICE) file.
 
 ### 1.4. Known Issues
 
