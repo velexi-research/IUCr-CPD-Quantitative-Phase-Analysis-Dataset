@@ -105,6 +105,9 @@ is contained in the `SOFTWARE-NOTICE` file.
 
 ## 2. Using the Dataset
 
+The instructions provided below require [DVC][dvc-docs] and [FastDS][fastds] to
+be installed.
+
 ### 2.1. Importing the Dataset
 
 To use the dataset a "read-only" manner (i.e., without maintenance code),
