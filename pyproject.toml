@@ -7,11 +7,11 @@ readme = "README.md"
 authors = ["Kevin T. Chu <kevin@velexi.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-pre-commit = "^3.2.1"
-black = "^23.3.0"
-flake8 = "^6.0.0"
-dvc = {extras = ["s3"], version = "^2.52.0"}
+python = "^3.10"
+pre-commit = "^3"
+black = "^24"
+flake8 = "^7"
+dvc = {extras = ["s3"], version = "^3"}
 fastds = "^0.6.0"
 
 [build-system]
