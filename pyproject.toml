@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "iucr-cpd-quantitative-phase-analysis-dataset"
-version = "0.1.1"
+version = "0.1.2"
 description = "IUCr CPD Quantitative Phase Analysis Dataset"
 license = "Apache-2.0"
 readme = "README.md"
@@ -12,7 +12,7 @@ pre-commit = "^3"
 black = "^24"
 flake8 = "^7"
 dvc = {extras = ["s3"], version = "^3"}
-fastds = "^0.6.0"
+fds = {git = "https://github.com/velexi-research/fds.git"}  # Fork of FastDS
 
 [build-system]
 requires = ["poetry-core"]
