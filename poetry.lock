@@ -1108,7 +1108,7 @@ files = [
 
 [[package]]
 name = "fds"
-version = "0.6.2"
+version = "0.6.3"
 description = "Fast Data Science, AKA fds, is a CLI for Data Scientists to version control data and code at once, by conveniently wrapping git and dvc"
 optional = false
 python-versions = "^3.9"
@@ -1127,7 +1127,7 @@ validators = "^0,>=0.20"
 type = "git"
 url = "https://github.com/velexi-research/fds.git"
 reference = "HEAD"
-resolved_reference = "668579863eff4f29db50b44045fd74ee9c246d70"
+resolved_reference = "d9856ff0e98260b980fc53600fc49e371b953fd1"
 
 [[package]]
 name = "filelock"
